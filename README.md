@@ -44,6 +44,7 @@ tensorflow
 scikit-learn
 matplotlib
 seaborn
+```
 
 ## Acknowledgements
 The authors would like to acknowledge the use of Large Language Models (Google Gemini) for assistance in debugging the Python scripts, optimizing memory usage, the training pipeline, refining the code structure, and for helping the authors understand the discussed topic at an accelerated rate.
