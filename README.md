@@ -4,6 +4,7 @@ Unlike traditional security methods (like MAC addresses) which can be easily spo
 
 ## Research Paper
 The codebase was developed to validate the findings in our study on RF Fingerprinting.
+
 [View Full Paper](rf_fingerprinting.pdf)
 
 ## Features
