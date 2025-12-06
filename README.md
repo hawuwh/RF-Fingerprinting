@@ -3,6 +3,9 @@ This project implements a **Physical Layer Security** framework to authenticate 
 
 Unlike traditional security methods (like MAC addresses) which can be easily spoofed, this system identifies devices based on unique hardware imperfections inherent in their RF circuitry (e.g., I/Q imbalance, frequency offsets). Using **Digital Signal Processing (DSP)** and a **1D Convolutional Neural Network (CNN)**, the system successfully classifies **150 distinct WiFi transmitters** from the **WiSig ManyTx** dataset.
 
+## Research Paper
+[Read the full research paper](rf_fingerprinting.pdf)
+
 ## Features
 - **Scalable Identification:** Capable of classifying **150 unique devices**.
 - **Robust DSP Pipeline:** Implements I/Q decomposition, Min-Max Normalization, and Gradient Clipping to handle raw hardware signals.
