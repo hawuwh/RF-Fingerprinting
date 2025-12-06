@@ -10,13 +10,12 @@ Unlike traditional security methods (like MAC addresses) which can be easily spo
 - **High Performance:** Achieves **36.63% Accuracy** on a 150-class problem (approx. **55x better than random guessing**).
 
 ## Dataset
-This project uses the **WiSig (WiFi Signal) Dataset - ManyTx Subset** [1].
-- **Source:** [CORES Lab, UCLA](https://cores.ee.ucla.edu/downloads/datasets/wisig/)
+This project uses the **WiSig (WiFi Signal) Dataset - ManyTx Subset**
+- **Source:** [CORES Lab, UCLA](https://cores.ee.ucla.edu/downloads/datasets/wisig/).
 - **Content:** Real-world WiFi preambles captured via USRP N210 radios.
 - **Classes:** 150 off-the-shelf WiFi transmitters.
 - **Signal Shape:** 256 complex-valued samples ($I + jQ$).
 
-[WiSig's RF Fingerprinting Dataset]
 ## Results
 The system was evaluated on a held-out test set (20% of data).
 
