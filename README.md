@@ -34,7 +34,12 @@ The system was evaluated on a held-out test set (20% of data).
 ### Confusion Matrix (Subset of 20 Devices)
 The diagonal structure confirms distinct fingerprints are being detected, while off-diagonal clusters reveal manufacturing similarities between specific hardware batches.
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](./figure/confusion_matrix.png)
+
+### Training Accuracy Graph
+Training and validation accuracy curves over 20 epochs. The steady divergence from the random baseline (0.66%) and the alignment between the training (blue) and validation (orange) performance indicate stable convergence without significance overfitting.
+
+![RF Fingerprinting Accuracy](./figure/accuracy_graph.png)
 
 ## Prerequisites
 The project requires the following python libraries:
